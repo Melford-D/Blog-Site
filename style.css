@@ -1,0 +1,78 @@
+.my_nav {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  background: transparent;
+  opacity: 0.9;
+  backdrop-filter: blur(80%);
+}
+.main-header {
+  background-image: url("./img/sunset.jpg");
+  background-size: cover;
+  opacity: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.default-header {
+  background-image: url("./img/sunset.jpg");
+  background-size: cover;
+  opacity: 1;
+  padding-top: 120px;
+  padding-bottom: 180px;
+}
+.default-header-text-holder {
+  color: white;
+}
+.default-header-text-holder h1 {
+  padding-top: 20px;
+}
+
+.header-text-holder,
+.subscribe-holder {
+  text-align: center;
+  color: #fff;
+}
+.subscribe-holder > a {
+  color: #fff;
+}
+.my_card:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  transition-duration: 0.4s;
+}
+.my_card h3 {
+  font-size: 1.2em;
+}
+.home-body-content,
+.default-body-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3 {
+  font-size: 1.3em;
+}
+.default-body-content .list-group a {
+  padding-top: 20px;
+  margin-bottom: 25px;
+  color: black;
+}
+.default-body-content .list-group a:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition-duration: 0.4s;
+}
+.home-body-content .my_card {
+  margin-bottom: 25px;
+  transition-duration: 0.4s;
+}
+.main-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  background-color: black;
+}
+.main-footer p {
+  margin: 0px;
+}
+.aside-items ul li a {
+  text-decoration: none;
+}
+.aside-items ul li a:hover {
+  color: red;
+}
